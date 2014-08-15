@@ -1,0 +1,110 @@
+#header
+  height: banner-height
+  position: relative
+  &:before, &:after
+    content: ""
+    position: absolute
+    left: 0
+    right: 0
+    height: 40px
+
+#header-outer
+  height: 100%
+  position: relative
+
+#header-inner
+  position: relative
+  overflow: hidden
+
+#header-title
+  height: logo-size
+  position: absolute
+  top: 80%
+  left: 0
+  margin-top: logo-size * -0.5
+
+$logo-text
+  text-decoration: none
+  color: #a9a9a9
+  font-weight: 300
+  padding-left:10px
+
+#logo
+  @extend $logo-text
+  font-size: logo-size
+  line-height: logo-size
+  letter-spacing: 2px
+  &:hover
+    color: color-link
+
+#subtitle
+  @extend $logo-text
+  font-size: subtitle-size
+  line-height: subtitle-size
+  letter-spacing: 1px
+  padding-left: 12px
+
+#subtitle-wrap
+  margin-top: subtitle-size
+
+#main-nav
+  float: left
+  margin-left: -15px
+
+$nav-link
+  float: left
+  color: #a9a9a9
+  opacity: 0.6
+  text-decoration: none
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  transition: opacity 0.2s
+  display: block
+  padding: 20px 15px
+  &:hover
+    opacity: 1
+
+.nav-icon
+  @extend $nav-link
+  font-family: font-icon
+  text-align: center
+  font-size: font-size
+  width: font-size
+  height: font-size
+  padding: 20px 15px
+  position: relative
+  cursor: pointer
+
+.main-nav-link
+  @extend $nav-link
+  font-weight: 300
+  letter-spacing: 1px
+  @media mq-mobile
+    display: none
+
+#main-nav-toggle
+  display: none
+  &:before
+    content: "\f0c9"
+  @media mq-mobile
+    display: block
+
+#sub-nav
+  float: right
+  margin-right: -15px
+
+#nav-rss-link
+  &:before
+    content: "\f09e"
+
+#nav-home-icon
+  &:before
+    content: "\f015"
+
+#nav-archives-icon
+  &:before
+    content: "\f03a"
+
+#nav-about-icon
+  &:before
+    content: "\f007"
+

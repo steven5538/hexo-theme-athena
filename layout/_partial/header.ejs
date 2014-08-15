@@ -1,0 +1,24 @@
+<header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+      </h1>
+      <% if (theme.subtitle){ %>
+        <h2 id="subtitle-wrap">
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
+        </h2>
+      <% } %>
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        <% for (var i in theme.menu){ %>
+          <a id="<%= theme.menu_icon[i] %>" class="nav-icon" href="<%- url_for(theme.menu[i]) %>"></a>
+        <% } %>
+        <% if (theme.rss){ %>
+          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+        <% } %>
+      </nav>
+    </div>
+  </div>
+</header>
