@@ -2,6 +2,11 @@
 
 A theme for [hexo](http://hexo.io/), modify from Hexo default [landscape](https://github.com/hexojs/hexo-theme-landscape/) theme.
 
+[Preview](http://steven5538.tw)
+
+![pic1][pic1]
+![pic2][pic2]
+
 ## Installation
 
 ### Install
@@ -45,9 +50,6 @@ fancybox: true
 google_analytics:
 favicon: /favicon.png
 twitter:
-google_plus:
-fb_admins:
-fb_app_id:
 ```
 
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
@@ -58,4 +60,6 @@ fb_app_id:
 - **google_analytics** - Google Analytics ID
 - **favicon** - Favicon path
 - **twitter** - Twiiter ID
-- **google_plus** - Google+ ID
+
+[pic1]: http://i.imgur.com/Z01sQij.png
+[pic2]: http://i.imgur.com/jwbCNKA.png
