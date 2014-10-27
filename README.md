@@ -55,7 +55,7 @@ twitter:
 - **menu** - Navigation menu, you need to `hexo new page 'about'` for the about page.
 - **menu_icon** - Navigation icon
 - **rss** - RSS link
--- **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
+- **excerpt_link** - "Read More" link at the bottom of excerpted articles. `false` to hide the link.
 - **fancybox** - Enable [Fancybox]
 - **google_analytics** - Google Analytics ID
 - **favicon** - Favicon path
