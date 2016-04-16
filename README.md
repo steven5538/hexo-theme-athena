@@ -2,8 +2,6 @@
 
 A theme for [hexo](http://hexo.io/), modify from Hexo default [landscape](https://github.com/hexojs/hexo-theme-landscape/) theme.
 
-[Preview](http://steven5538.tw)
-
 ![pic1][pic1]
 ![pic2][pic2]
 
